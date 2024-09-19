@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/reedom/libfvad_ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.9'
 
   s.source_files        = 'libfvad_ios/Classes/libfad/**/*.{h,c}'
   s.public_header_files = 'libfvad_ios/Classes/libfad/include/*.h'
